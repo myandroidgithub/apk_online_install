@@ -36,8 +36,6 @@ public class PackageUtils {
 
 	public boolean isUpgradeVersion(int oldVersion, int newVersion) {
 
-		boolean flag = false;
-		flag = newVersion > oldVersion ? true : false;
-		return flag;
+		return newVersion > oldVersion ? true : false;
 	}
 }
